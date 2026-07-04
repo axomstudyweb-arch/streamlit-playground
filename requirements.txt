@@ -6,3 +6,5 @@ streamlit-echarts
 streamlit_extras
 plotly
 altair
+pandas
+openpyxl
