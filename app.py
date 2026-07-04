@@ -5,9 +5,9 @@ import io
 import zipfile
 
 # Page Configuration matching layout
-st.set_page_config(page_title="Secure Beneficiary Data Segregator", layout="wide")
+st.set_page_config(page_title="NSAP Beneficiary Data Segregator", layout="wide")
 
-st.title("🛡️ Secure GP-Wise Beneficiary Segregator")
+st.title("🛡️ NSAP GP-Wise Beneficiary Segregator by ANKUR")
 st.caption("Data Privacy Guard: All data is processed entirely inside your browser memory and is never transmitted to backend disks.")
 st.markdown("---")
 
@@ -89,7 +89,7 @@ if current_file is not None:
             "📊 Seeding PERCENTAGE", 
             "🔄 Monthly Comparison ", 
             "📋 AADHAR SEEDED - NON SEEDED REPORT", 
-            "🔍 DOWNLOAD TAB"
+            " ⤓ DOWNLOAD TAB"
         ])
 
         # Global analytical extraction logic so tables can be exported dynamically downstream
@@ -121,7 +121,7 @@ if current_file is not None:
 
         # --- TAB 1: SEEDING PERFORMANCE ---
         with tab1:
-            st.subheader("Performance Analysis Templates")
+            st.subheader("Performance Analysis")
             
             st.markdown("### State Scheme View (OAPFSC)")
             if not state_table.empty:
